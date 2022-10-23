@@ -43,7 +43,7 @@
 -   [Eclipse](https://spring.io/tools)
 -   [Atom Text Editor](https://atom.io/)
 -   [Java](https://www.java.com/en/)
--   [GITHUB](https://github.com
+-   [GITHUB](https://github.com)
 -   [Debugger] ()  
 
 <p align="right">(<a href="#top">back to top</a>)</p>
@@ -113,7 +113,7 @@ Project Link: [MakeChangeProject](https://github.com/SandraLeAnn/MakeChangeProje
 
 -   [Stack Overflow](https://stackoverflow.com/)
 -   [W3 Schools](https://www.w3schools.com/)
--   [Google] (https://www.google.com/)
--   [TanUv90] (https://www.youtube.com/watch?v=nLDWeTz3Zgc&t=65s)
+-   [Google](https://www.google.com/)
+-   [TanUv90](https://www.youtube.com/watch?v=nLDWeTz3Zgc&t=65s/)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
