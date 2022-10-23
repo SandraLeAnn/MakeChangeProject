@@ -114,6 +114,6 @@ Project Link: [MakeChangeProject](https://github.com/SandraLeAnn/MakeChangeProje
 -   [Stack Overflow](https://stackoverflow.com/)
 -   [W3 Schools](https://www.w3schools.com/)
 -   [Google](https://www.google.com/)
--   [TanUv90](https://www.youtube.com/watch?v=nLDWeTz3Zgc&t=65s/)
+-   [TanUv90-Youtube Educator](https://www.youtube.com/watch?v=nLDWeTz3Zgc&t=65s/)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
