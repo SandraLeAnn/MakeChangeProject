@@ -33,7 +33,7 @@
 
 
 <p>
-This program acts as a cash register. It allows the user to calculate/make change for the customer based on the purchase price and the amount tendered. It will notify the cashier how many pieces of currency to give back to the customer based on the amount of change that they are owed. It will use the largest bill and coin denominations possible to make change. It will not use 2 five dollar bill for ten dollars worth of change. It will use a ten dollar bill. This also applies to coin amounts. Any denominations not used in the program will not be displayed.  
+This program acts as a cash register. It allows the user to calculate/make change for the customer based on the purchase price and the amount tendered. It will notify the cashier how many pieces of currency to give back to the customer based on the amount of change that they are owed. It will use the largest bill and coin denominations possible to make change. It will not use 2 five dollar bills for ten dollars worth of change. It will use a ten dollar bill. This also applies to coin amounts. Any denominations not used in the program will not be displayed.  
  </p>
 
 <!--[![Product Name Screen Shot][product-screenshot]](https://example.com) -->
@@ -74,7 +74,7 @@ The make change cash register will first prompt the user to input the price of t
 					System.out.println("The amount of twenties is: " + amountOfTwenties);
 				}
 
-    </strong></li>
+    </li>
   </ul>
 </li>
 <li>
@@ -86,7 +86,7 @@ The make change cash register will first prompt the user to input the price of t
 
 ## What I Learned
 <p>
-I learned fun ways to use Math.round, while loops, variable manipulation, formulas, and nesting. Debugging...is a gift from the coding gods. This helped me track down mathematical errors and why I was having missing penny issues. 
+I learned fun ways to use Math.round, while loops, variable manipulation, formulas, and nesting. Debugging...is a gift from the coding gods. This helped me track down mathematical errors and why I was having missing penny issues.
 Creating this program helped me understand the logic I used. I initially felt a little lost and overwhelmed mainly because this is my first solo coding project. I quickly realized that I needed to simplify the program and not over complicate it. The goal was to have a fully functioning program that would do exactly what the user needed it to do, make change. This oddly proved a bit difficult when it came to the actual change portion. I realized java needs to have formulas that tell it exactly what to do or else I would end up with a program that generated $10.05411102 instead of $10.05. This is where Math.round used in a formula proved to be incredibly useful it helped me round to the nearest 100th.
 </p>
 
