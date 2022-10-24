@@ -78,7 +78,7 @@ public class CashRegister {
 		else {
 		System.out.printf("$%.2f is exact amount needed for purchase.", amountTendered);
 			}
-		System.out.println("Thanks for shopping with us today!");
+		System.out.println("\nThanks for shopping with us today!");
 		sc.close();
 		}
 	  }
