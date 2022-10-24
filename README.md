@@ -67,7 +67,7 @@ The make change cash register will first prompt the user to input the price of t
   If the amount tendered is greater than the purchase price the program will calculate the amount of change. Once the amount of change is calculated the program will then calculate the amount of each denomination to give back to the customer.
     Below is an example of a logic condition used in the program to determine the quantity of the denomination.
   <ul>
-    <li><strong>
+    <li>
     if (change >= 20) {           
 					amountOfTwenties = (int) (change / twentyDollarBill);
 					change = Math.round((change - (amountOfTwenties * twentyDollarBill))*100)/100.0;
