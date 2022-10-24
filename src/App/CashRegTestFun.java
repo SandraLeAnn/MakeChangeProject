@@ -2,7 +2,7 @@ package App;
 
 import java.util.Scanner;
 
-public class CashRegister {
+public class CashRegTestFun {
 
 	
 	public static void main(String[] args) {
@@ -18,12 +18,15 @@ public class CashRegister {
 		double nickle = .05;
 		double penny = .01;
 		
+		boolean anotherPurchase = true;
+		while(anotherPurchase) {
 		System.out.print("What is the price of the item? \n$");
 		purchasePrice = sc.nextDouble();
 		System.out.print("Please enter how much you would like to pay? \n$");
 		amountTendered = sc.nextDouble();
 		change = amountTendered - purchasePrice;
 		change = Math.round(change * 100)/100.0;
+		
 		
 		if (amountTendered < purchasePrice) {
 			System.out.println("Not enough money. Get out!");
@@ -75,13 +78,28 @@ public class CashRegister {
 				}
 			  }
 			
+			
 			}
 		else {
 		System.out.printf("$%.2f is exact amount needed for purchase.", amountTendered);
 			}
-	
 		
+		
+		System.out.println("\n Would you like to make another purchase, Y/N?");
+		String input = sc.next();
+		
+		if(input.equalsIgnoreCase("Y")|| input.equalsIgnoreCase("Yes")) {
+			anotherPurchase = true;
+		}
+		
+		else {
+			anotherPurchase = false;
+		}
+		
+		
+		}
 		System.out.println("\nThanks for shopping with us today!");
+		
 		sc.close();
 		}
 	  }
