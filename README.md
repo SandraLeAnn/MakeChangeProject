@@ -68,12 +68,12 @@ The make change cash register will first prompt the user to input the price of t
     Below is an example of a logic condition used in the program to determine the quantity of the denomination.
 
 
-    if (change >= 20) {           
-					amountOfTwenties = (int) (change / twentyDollarBill);
-					change = Math.round((change - (amountOfTwenties * twentyDollarBill))*100)/100.0;
-					System.out.println("The amount of twenties is: " + amountOfTwenties);
+  -if (change >= 20) {           
+	amountOfTwenties = (int) (change / twentyDollarBill);
+	change = Math.round((change - (amountOfTwenties * twentyDollarBill))*100)/100.0;
+	System.out.println("The amount of twenties is: " + amountOfTwenties);
 				}
-  
+
 </li>
 <li>
  If the amount tendered is the same as the purchase price the program will prompt the user to not give any change because there is no calculation to be preformed and the exact amount owed was paid. The program will then terminate.
